@@ -1,0 +1,61 @@
+/* src/components/dashboard.css */
+.dashboard-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    max-width: 400px;
+    width: 100%;
+}
+
+.dashboard-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.dashboard-section {
+    margin-bottom: 15px;
+}
+
+.dashboard-section label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+.dashboard-section input,
+.dashboard-section select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.dashboard-section button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dashboard-section button:hover {
+    background-color: #218838;
+}
+
+.dashboard-section button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

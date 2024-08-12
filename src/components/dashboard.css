@@ -1,0 +1,69 @@
+/* src/components/dashboard.css */
+.dashboard-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+.dashboard-control {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.control-label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #ffd700;
+}
+
+.control-input, .control-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.control-input {
+    background: #444;
+}
+
+.control-button {
+    background: #007bff;
+    cursor: pointer;
+}
+
+.control-button:hover {
+    background: #0056b3;
+}
+
+.save-button {
+    background: #28a745;
+}
+
+.save-button:hover {
+    background: #218838;
+}
+
+.reset-button {
+    background: #dc3545;
+}
+
+.reset-button:hover {
+    background: #c82333;
+}
